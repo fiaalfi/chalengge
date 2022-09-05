@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "15f8e50d-880b-4c44-9bbe-c0227c908e2f",
+		"name": "challenge binar ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23158459"
+	},
+	"item": [
+		{
+			"name": "challenge 5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/v1/auth/user",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"v1",
+						"auth",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
