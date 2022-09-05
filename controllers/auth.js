@@ -1,11 +1,12 @@
 exports.user = (req, res, next) => {
 
-  const username = 'fia';
-  const password = 'fia123';
-
   const result = {
-    username,
-    password
+    nama : 'Fia Alfiatu Amanah',
+    gender : 'wanita',
+    tanggal_lahir : '18 Maret 1997',
+    email : 'fiaalfiatuamanah18@gmail.com',
+    username : 'fiaa_',
+    password : 'fiaa1234'
   }
   
   res.status(201).json({
